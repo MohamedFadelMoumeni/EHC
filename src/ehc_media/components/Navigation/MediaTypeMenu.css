@@ -1,0 +1,31 @@
+.media-type-menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: var(--background-light);
+  border-radius: 8px;
+}
+
+.media-type-menu .menu-item {
+  padding: 0.8rem 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background-color: white;
+  color: #666;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.media-type-menu .menu-item:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.media-type-menu .menu-item.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}

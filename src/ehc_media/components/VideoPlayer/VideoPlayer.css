@@ -1,0 +1,18 @@
+.video-player {
+  width: 100%;
+  position: relative;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-element {
+  width: 100%;
+  display: block;
+}
+
+.video-player video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
