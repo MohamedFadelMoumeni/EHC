@@ -3,7 +3,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-quill/dist/quill.snow.css';
 import Client from './client/Client';
-import Admin from './admin/Admin';
+import Admin from './admin/admin';
 import Login from './admin/pages/Login';
 import MainLayout from './admin/layouts/MainLayout';
  
